@@ -1,10 +1,10 @@
-version: '3.7'
+version: "3.7"
 
 services:
   main-server:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     # volumes:
     #   - ./src:/main_server/src
     ports:
